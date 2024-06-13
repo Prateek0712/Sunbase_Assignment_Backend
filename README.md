@@ -1,6 +1,6 @@
 # SunBase Assignment Backend  
 
-This repository contains the codebase for a backend API that manages customer information. The assignment involves implementing various CRUD operations and later extending the functionality in the second phase to synchronize customer data from a remote API.
+This repository contains the codebase for a customer information management API. The primary objective is to implement CRUD operations, with a subsequent phase focused on synchronizing customer data with a remote API to ensure consistency and accuracy.
 
 ### Assignment Completion
 
