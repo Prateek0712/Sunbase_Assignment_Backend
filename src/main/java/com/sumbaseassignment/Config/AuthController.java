@@ -36,7 +36,7 @@ public class AuthController {
     @PostMapping("/assignment_auth.jsp")
     public ResponseEntity<JwtResponse> login(@RequestBody JwtRequest request) {
 
-        // Authenticate user credentials.
+        // Authenticating user credentials 
         this.getAuthenticate(request.getEmail(), request.getPassword());
 
         // Retrieve user details and generate JWT token.
