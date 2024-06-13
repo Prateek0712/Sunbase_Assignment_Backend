@@ -19,7 +19,7 @@ import java.util.UUID;
 @NoArgsConstructor
 
 public class Customer {
-    // Primary key for the customer entity, auto-generated.
+    // Primary key for the customer model which is auto-generated.
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int customerId;
