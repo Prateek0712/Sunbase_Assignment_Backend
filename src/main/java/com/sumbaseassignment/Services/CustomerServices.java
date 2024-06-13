@@ -48,7 +48,7 @@ public class CustomerServices {
     }
 
 
-    // Retrieves a customer by their ID.
+    // Retrieves a customer by ID.
     public Customer getCustomerById(int customerId) throws Exception {
 
         Optional<Customer> customer = customerRepository.findById(customerId);
@@ -60,7 +60,7 @@ public class CustomerServices {
     }
 
 
-    // Deletes a customer by their ID.
+    // Deletes a customer by ID.
     public void deleteCustomerById(int customerId) throws Exception {
 
         try {

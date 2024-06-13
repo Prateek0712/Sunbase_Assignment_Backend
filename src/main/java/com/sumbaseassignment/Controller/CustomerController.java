@@ -20,7 +20,7 @@ public class CustomerController {
     @Autowired
     private CustomerServices customerServices;
 
-    // Endpoint for creating a new customer.
+    // Enpoint for creating a new customer
 
     @PostMapping("/api/create")
     public ResponseEntity<Customer> createCustomer(@RequestBody Customer customer) throws Exception{

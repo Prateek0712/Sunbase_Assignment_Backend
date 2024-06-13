@@ -24,7 +24,7 @@ import java.util.Enumeration;
 @Component
 public class JwtAuthenticationFilter extends OncePerRequestFilter {
 
-    // Logger for logging information.
+    // Logger 
     private Logger logger = LoggerFactory.getLogger(JwtAuthenticationFilter.class);
 
     // Autowired instance of JwtHelper for JWT-related operations.

@@ -11,9 +11,9 @@ import lombok.*;
 @ToString
 
 public class JwtRequest {
-    // The email associated with the authentication request.
+    // email use as username for authenticating rqst
     private String email;
 
-    // The password associated with the authentication request.
+    // password for authenting requesting
     private String password;
 }

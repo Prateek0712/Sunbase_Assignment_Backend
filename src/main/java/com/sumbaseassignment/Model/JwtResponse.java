@@ -11,9 +11,9 @@ import lombok.*;
 
 public class JwtResponse {
 
-    // The JWT token generated for successful authentication.
+    // this token will be generated after successful authentication rqst of incoming user and will send to client-side
     private String jwtToken;
 
-    // The username associated with the authenticated user.
+    // user name for which this token is generated
     private String userName;
 }

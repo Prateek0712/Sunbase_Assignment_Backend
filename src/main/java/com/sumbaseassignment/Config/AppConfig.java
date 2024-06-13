@@ -15,7 +15,7 @@ import org.springframework.web.client.RestTemplate;
 @Configuration
 class MyConfig {
 
-    //defined bead of user details
+    //defined bean of user details
     @Bean
     public UserDetailsService userDetailsService() {
         // this is for login and it will be only  one admin
@@ -29,7 +29,7 @@ class MyConfig {
     }
 
 
-    // bean for password encoding (in this case it will be Bcryptpassword endcode).
+    // bean for password encoding (in this case it will be Bcryptpassword encoding).
     @Bean
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();

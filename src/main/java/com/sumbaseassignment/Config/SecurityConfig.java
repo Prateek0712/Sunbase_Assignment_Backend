@@ -34,7 +34,7 @@ public class SecurityConfig {
                 // Configures exception handling, specifying the authentication entry point.
                 .and().exceptionHandling(ex -> ex.authenticationEntryPoint(point))
                 .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS));
-        // adding jwT auth filter before username password authentication
+        // adding jwt auth filter before username password authentication
         http.addFilterBefore(filter, UsernamePasswordAuthenticationFilter.class);
         // Builds and returns the configured security filter chain.
         return http.build();
